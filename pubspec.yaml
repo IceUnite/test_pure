@@ -17,6 +17,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   nested: ^1.0.0
   flutter_svg: ^2.2.0
+  google_fonts: ^6.2.1
+  provider: ^6.1.5
 
 dev_dependencies:
   flutter_test:
@@ -30,4 +32,12 @@ flutter:
   assets:
     - assets/images/
     - assets/vectors/
-
+    - assets/fonts/
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/Ubuntu-Regular.ttf
+        - asset: assets/fonts/Ubuntu-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Ubuntu-Bold.ttf
+          weight: 700

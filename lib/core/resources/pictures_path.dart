@@ -1,6 +1,7 @@
 // Путь к картинкам
 
 class PicturesPaths {
+  static const String imAvatar = 'assets/images/im_avatar.png';
   static const String imAvatar1 = 'assets/images/im_avatar_1.png';
   static const String imAvatar2 = 'assets/images/im_avatar_2.png';
   static const String imAvatar3 = 'assets/images/im_avatar_3.png';

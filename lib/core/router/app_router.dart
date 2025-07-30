@@ -16,7 +16,7 @@ class AppRouter {
         },
         branches: [
           // Чаты
-          StatefulShellBranch(routes: [GoRoute(path: '/chats', builder: (context, state) => const ChatsPage())]),
+          StatefulShellBranch(routes: [GoRoute(path: '/chats', builder: (context, state) =>  ChatsPage())]),
           // Лента
           StatefulShellBranch(
             routes: [
