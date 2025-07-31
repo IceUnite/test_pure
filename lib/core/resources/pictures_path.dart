@@ -8,4 +8,5 @@ class PicturesPaths {
   static const String imAvatar4 = 'assets/images/im_avatar_4.png';
   static const String imAvatar5 = 'assets/images/im_avatar_5.png';
   static const String imLike = 'assets/images/im_like.png';
+  static const String imFlame = 'assets/images/im_flame.png';
 }
